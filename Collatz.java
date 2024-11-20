@@ -31,7 +31,7 @@ public class Collatz {
 					System.out.println(num+" ");
 				} System.out.println("("+count+")");
 				System.out.println();
-			} System.out.println("Every one of the first "+N+" hailstonebsequences reached 1.");
+			} System.out.println("Every one of the first "+N+" hailstone sequences reached 1.");
 			}else if (mode.equals("c")){
 				boolean reached1= false;
 				num=num*3+1;
