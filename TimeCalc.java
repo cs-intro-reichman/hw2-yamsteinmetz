@@ -15,10 +15,9 @@ public class TimeCalc {
         if (newH<10)
             printH= "0"+newH;
             else printH= ""+ newH;
-            if (newM<10)
-            printM="0"+newM;
+        if (newM<10)
+                 printM="0"+newM;
             else printM = ""+ newM;
-                printM = "" +newM;
                 System.out.println(printH+ ":"+ printM);
             }
 
