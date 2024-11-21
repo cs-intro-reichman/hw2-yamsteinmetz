@@ -6,7 +6,7 @@ public class Cheers {
                 int crowd = Integer.parseInt(args[1]);
                 for (int i = 0; i<word.length(); i++){
                         char letter = word.charAt(i);
-                        String x = (letter=='A'||letter=='E'||letter=='F'||letter=='H'||letter=='I'||letter=='L'||letter=='M'||letter=='N'||letter=='O'||letter=='R'||letter=='S'||letter=='X')?"an ":"a  ";
+                        String x = (letter=='A'||letter=='E'||letter=='F'||letter=='H'||letter=='I'||letter=='L'||letter=='M'||letter=='N'||letter=='O'||letter=='R'||letter=='S'||letter=='X')?"an ": "a  ";
                         System.out.println("Give me " +x+ " "+ letter+": "+letter+"!");
                 }
                 System.out.println("What does that spell?");
