@@ -43,7 +43,6 @@
 				int pointer = i;
 				int steps = 1;  // Start counting steps from 1
 				
-				// אם mode שווה ל-"v", נדפיס את המספר הראשון
 				if (mode.equals("v")) {
 					System.out.print(pointer);
 				}
@@ -55,12 +54,10 @@
 						pointer = pointer * 3 + 1;
 					}
 					if (mode.equals("v")) {
-						System.out.print(" " + pointer);  // נדפיס כל מספר
+						System.out.print(" " + pointer);  // print every number
 					}
 					steps++;
 				}
-				
-				// אחרי שהגענו ל-1, נדפיס את מספר הצעדים בסוגריים
 				if (mode.equals("v")) {
 					System.out.println(" (" + steps + ")");
 				}
